@@ -24,6 +24,7 @@ public interface Avion {
 }
 ```
 * State class
+
 This class is abstract and contains the methods that the airplane can perform. Each method is abstract and will be implemented in the subclasses.
 ```java
 abstract class State {
@@ -44,7 +45,7 @@ abstract class State {
         public abstract void doActivity();
     }
 ```
-* EnPiste class
+* EnPisteState class
 ```java
 class EnPisteState extends State {
         public EnPisteState(AvionImpl avion) {
@@ -81,7 +82,7 @@ class EnPisteState extends State {
         }
     }
 ```
-* AuGarage class
+* AuGarageState class
 ```java
 class AuGarageState extends State {
 
