@@ -1,7 +1,6 @@
 ## State Pattern
 ### Description
-The state pattern is a behavioral software design pattern that allows an object to alter its behavior when its internal state changes. This pattern is close to the concept of finite-state machines. The state pattern can be interpreted as a strategy pattern, which is able to switch a strategy through invocations of methods defined in the pattern's interface.
-
+The state pattern serves as a behavioral design pattern in software development, enabling an object to modify its behavior based on changes in its internal state. It closely aligns with the principles of finite-state machines. Another perspective is to view the state pattern as akin to the strategy pattern, where the object can dynamically switch between different strategies by invoking methods defined in the pattern's interface.
 ### Class Diagram
 ![img.png](src/main/java/captures/img.png)
 
